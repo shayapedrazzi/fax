@@ -119,8 +119,22 @@
 
 		.square {
 		
-			height: 1em;
-			width: 1em;
+			height: 25px;
+			width: 25px;
 			background-color: black;
+			display: inline-block;
+		}
+
+
+		.indice {
+			font-family: aktiv-grotesk, sans-serif;
+			font-size: 24pt;
+			font-weight: 300;
+			color: black;
+
+		}
+
+		.indice:hover {
+			text-decoration: underline;
 		}
 
